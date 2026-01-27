@@ -1,0 +1,52 @@
+{
+	"nombre"			: "Sistema de Gestión y Talento Humano",	
+	"nombre_min"		: "SisTTHH",
+	"version" 			: "1.0.1",
+	"codigo"			: "Ana",
+	"logo" 				: "img/logo01.jpg",
+	"empty_template" 	: "template/empty_template",
+	"table_template" 	: "template/table_template",
+	"free_template" 	: "template/free_template",
+	"cesta_ticket" 		: "400.000,00",
+	"system_delay"		: 0,
+	"system_stop"		: 0,
+	"usuario_id"		: "R.I.F. G-20000156-9",
+	"usuario_nombre"	: "Gobernación del Estado Bolivariano de Mérida",
+	"usuario_tlf"		: "0274-252.85.96/252.47.70/251.20.54 Fax. 252.87.09",
+	"usuario_dir"		: "Calle 23 entre Av. 3 y 4 frente a la Plaza Bolívar, Palacio de Gobierno, planta baja",
+	"rrhh_nombre"		: "Dirección de Recursos Humanos de la Gobernación del Estado Bolivariano de Mérida.",
+	"rrhh_director"		: "ABG. ANTONIO JOSE DIAZ GARCIA",
+	"rrhh_dir_decreto"	: "Designado según Decreto Nro. 325 de fecha 17/09/2018 Gaceta Nro. 4245 de la misma fecha.",
+	"rrhh_correo"		: "informatica.rrhh@gmail.com",
+	"datatable_spanish" : {
+	  "decimal": ",",
+      "thousands": ".",
+	  "sProcessing":     "Procesando...",
+	  "sLengthMenu":     "Mostrar _MENU_ registros",
+	  "sZeroRecords":    "No se encontraron resultados",
+	  "sEmptyTable":     "Ningún dato disponible en esta tabla",
+	  "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+	  "sInfoEmpty":      "Mostrando registroTalentos del 0 al 0 de un total de 0 registros",
+	  "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+	  "sInfoPostFix":    "",
+	  "sSearch":         "Buscar:",
+	  "sUrl":            "",
+	  "sInfoThousands":  ",",
+	  "sLoadingRecords": "Cargando...",
+	  "oPaginate": {
+	    "sFirst":    "Primero",
+	    "sLast":     "Último",
+	    "sNext":     "Siguiente",
+	    "sPrevious": "Anterior"
+	  },
+	  "oAria": {
+	    "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+	    "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+	  }
+	},
+	"local_dia" : ["Domingo", "Lunes", "Martes", "Miercoles",
+		"Jueves", "Viernes", "Sábado"],
+	"local_mes" : ["Enero", "Febrero", "Marzo", "Abril", "Mayo",
+		"Junio", "Julio", "Agosto", "Septiembre", "Octubre",
+		"Noviembre", "Diciembre"]
+}

@@ -1,0 +1,44 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-05-12 06:26:47 --> 404 Page Not Found: Index2html/index
+ERROR - 2019-05-12 11:27:18 --> 404 Page Not Found: Trabajador_c/Trabajador_c
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Undefined offset: 0 /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 72
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'denominacion' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 100
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'fdesde' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 105
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'fhasta' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 105
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'codigo' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 110
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'cedula' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 110
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'fingreso' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 115
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'cargo' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 120
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'banco' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 125
+ERROR - 2019-05-12 11:27:46 --> Severity: Notice --> Trying to get property 'cuenta' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 130
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Undefined offset: 0 /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 72
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'denominacion' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 100
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'fdesde' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 105
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'fhasta' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 105
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'codigo' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 110
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'cedula' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 110
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'fingreso' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 115
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'cargo' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 120
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'banco' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 125
+ERROR - 2019-05-12 11:27:49 --> Severity: Notice --> Trying to get property 'cuenta' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/application/controllers/Trabajador_c.php 130
+ERROR - 2019-05-12 11:27:54 --> 404 Page Not Found: Trabajador_c/Trabajador_c
+ERROR - 2019-05-12 11:36:20 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19582) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-05-12 11:36:20 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19582) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19582',  E'{"fecha":"12\\/05\\/2019","ingreso":"48.702,16","ct":"1.800,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'OnQPd')
+ERROR - 2019-05-12 11:39:14 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19582) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-05-12 11:39:14 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19582) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19582',  E'{"fecha":"12\\/05\\/2019","ingreso":"48.702,16","ct":"1.800,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'mBxIy')
+ERROR - 2019-05-12 11:41:32 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19582) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-05-12 11:41:32 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19582) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19582',  E'{"fecha":"12\\/05\\/2019","ingreso":"48.702,16","ct":"1.800,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'ImmI6')
+ERROR - 2019-05-12 11:43:28 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19582) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-05-12 11:43:28 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19582) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19582',  E'{"fecha":"12\\/05\\/2019","ingreso":"48.702,16","ct":"1.800,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'ZuOFI')
+ERROR - 2019-05-12 23:24:17 --> Severity: Warning --> getimagesize(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2019-05-12 23:24:17 --> Severity: Warning --> getimagesize(http://tthh.merida.gob.ve/proyectos/tthh/img/logo03.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2019-05-12 23:24:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/core/Exceptions.php:271) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7651

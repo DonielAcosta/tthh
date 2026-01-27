@@ -1,0 +1,101 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-12-10 00:01:52 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 00:45:46 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 01:45:54 --> 404 Page Not Found: Apple-touch-icon-152x152-precomposedpng/index
+ERROR - 2021-12-10 01:45:56 --> 404 Page Not Found: Apple-touch-icon-152x152png/index
+ERROR - 2021-12-10 01:46:01 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2021-12-10 01:46:02 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-12-10 01:46:03 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 01:46:12 --> 404 Page Not Found: Apple-touch-icon-152x152-precomposedpng/index
+ERROR - 2021-12-10 01:46:16 --> 404 Page Not Found: Apple-touch-icon-152x152png/index
+ERROR - 2021-12-10 01:46:17 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2021-12-10 01:46:17 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-12-10 01:46:21 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 02:03:31 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 02:29:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 03:01:37 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-12-10 03:08:40 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 03:41:31 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 03:52:58 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 04:22:32 --> 404 Page Not Found: Wp-includes/wlwmanifest.xml
+ERROR - 2021-12-10 04:22:32 --> 404 Page Not Found: Xmlrpcphp/index
+ERROR - 2021-12-10 04:22:33 --> 404 Page Not Found: Blog/wp-includes
+ERROR - 2021-12-10 04:22:33 --> 404 Page Not Found: Web/wp-includes
+ERROR - 2021-12-10 04:22:34 --> 404 Page Not Found: Wordpress/wp-includes
+ERROR - 2021-12-10 04:22:34 --> 404 Page Not Found: Website/wp-includes
+ERROR - 2021-12-10 04:22:34 --> 404 Page Not Found: Wp/wp-includes
+ERROR - 2021-12-10 04:22:35 --> 404 Page Not Found: News/wp-includes
+ERROR - 2021-12-10 04:22:35 --> 404 Page Not Found: 2020/wp-includes
+ERROR - 2021-12-10 04:22:35 --> 404 Page Not Found: 2019/wp-includes
+ERROR - 2021-12-10 04:22:36 --> 404 Page Not Found: Shop/wp-includes
+ERROR - 2021-12-10 04:22:36 --> 404 Page Not Found: Wp1/wp-includes
+ERROR - 2021-12-10 04:22:36 --> 404 Page Not Found: Test/wp-includes
+ERROR - 2021-12-10 04:22:37 --> 404 Page Not Found: Wp2/wp-includes
+ERROR - 2021-12-10 04:22:37 --> 404 Page Not Found: Site/wp-includes
+ERROR - 2021-12-10 04:22:37 --> 404 Page Not Found: Cms/wp-includes
+ERROR - 2021-12-10 04:22:38 --> 404 Page Not Found: Sito/wp-includes
+ERROR - 2021-12-10 06:43:23 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-12-10 09:05:04 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-12-10 09:48:59 --> 404 Page Not Found: Mt/mt-xmlrpc.cgi
+ERROR - 2021-12-10 09:49:02 --> 404 Page Not Found: Mt/DIZ.php
+ERROR - 2021-12-10 09:49:03 --> 404 Page Not Found: DKIZphp/index
+ERROR - 2021-12-10 10:42:18 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-12-10 10:42:19 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-12-10 11:41:39 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 12:10:13 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 12:25:58 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 13:22:43 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 13:27:09 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 13:27:51 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 14:23:35 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 14:46:47 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 15:02:05 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 15:20:48 --> 404 Page Not Found: Apple-touch-icon-120x120-precomposedpng/index
+ERROR - 2021-12-10 15:20:48 --> 404 Page Not Found: Apple-touch-icon-120x120png/index
+ERROR - 2021-12-10 15:20:49 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2021-12-10 15:20:49 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-12-10 15:20:49 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 15:20:50 --> 404 Page Not Found: Apple-touch-icon-120x120-precomposedpng/index
+ERROR - 2021-12-10 15:20:50 --> 404 Page Not Found: Apple-touch-icon-120x120png/index
+ERROR - 2021-12-10 15:20:50 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2021-12-10 15:20:50 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-12-10 15:20:50 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 16:47:15 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-12-10 16:47:16 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 16:47:16 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 17:08:05 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 21:19:48 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 21:22:00 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2021-12-10 21:23:51 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 21:30:02 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 21:51:54 --> 404 Page Not Found: Env/index
+ERROR - 2021-12-10 22:22:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 22:24:22 --> Severity: Warning --> fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/system/libraries/Email.php 2055
+ERROR - 2021-12-10 22:24:22 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) /home/admin/web/tthh.merida.gob.ve/public_html/system/libraries/Email.php 2055
+ERROR - 2021-12-10 22:27:52 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 22:31:09 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 22:34:02 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2021-12-10 22:35:08 --> 404 Page Not Found: Apple-touch-icon-120x120-precomposedpng/index
+ERROR - 2021-12-10 22:35:11 --> 404 Page Not Found: Apple-touch-icon-120x120png/index
+ERROR - 2021-12-10 22:35:13 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2021-12-10 22:35:14 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-12-10 22:35:15 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 22:35:15 --> 404 Page Not Found: Apple-touch-icon-120x120-precomposedpng/index
+ERROR - 2021-12-10 22:35:16 --> 404 Page Not Found: Apple-touch-icon-120x120png/index
+ERROR - 2021-12-10 22:35:17 --> 404 Page Not Found: Apple-touch-icon-precomposedpng/index
+ERROR - 2021-12-10 22:35:17 --> 404 Page Not Found: Apple-touch-iconpng/index
+ERROR - 2021-12-10 22:35:18 --> 404 Page Not Found: Faviconico/index
+ERROR - 2021-12-10 22:35:24 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2021-12-10 22:38:06 --> Severity: Notice --> Trying to get property 'tipo' of non-object /home/admin/web/tthh.merida.gob.ve/public_html/application/controllers/Trabajador_c.php 616
+ERROR - 2021-12-10 22:39:39 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2021-12-10 22:40:45 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2021-12-10 22:41:31 --> Severity: Notice --> Undefined variable: item /home/admin/web/tthh.merida.gob.ve/public_html/application/views/trabajador/comprobante_pago_v.php 49
+ERROR - 2021-12-10 22:41:32 --> Severity: Notice --> Undefined variable: item /home/admin/web/tthh.merida.gob.ve/public_html/application/views/trabajador/comprobante_pago_v.php 50
+ERROR - 2021-12-10 22:41:35 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2021-12-10 22:42:23 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2021-12-10 22:43:02 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2021-12-10 22:43:21 --> Severity: Notice --> Undefined variable: item /home/admin/web/tthh.merida.gob.ve/public_html/application/views/trabajador/comprobante_pago_v.php 49
+ERROR - 2021-12-10 22:43:21 --> Severity: Notice --> Undefined variable: item /home/admin/web/tthh.merida.gob.ve/public_html/application/views/trabajador/comprobante_pago_v.php 50
+ERROR - 2021-12-10 22:43:26 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2021-12-10 22:44:31 --> 404 Page Not Found: Vendor/almasaeed2010

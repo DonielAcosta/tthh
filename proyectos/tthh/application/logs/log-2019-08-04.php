@@ -1,0 +1,10 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-08-04 01:32:05 --> Severity: Warning --> getimagesize(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2019-08-04 01:32:05 --> Severity: Warning --> getimagesize(http://tthh.merida.gob.ve/proyectos/tthh/img/logo03.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2019-08-04 01:32:06 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/core/Exceptions.php:271) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7651
+ERROR - 2019-08-04 02:02:30 --> 404 Page Not Found: Index2html/index
+ERROR - 2019-08-04 02:02:43 --> 404 Page Not Found: Index2html/index
+ERROR - 2019-08-04 21:39:20 --> Severity: Warning --> getimagesize(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2019-08-04 21:39:20 --> Severity: Warning --> getimagesize(http://tthh.merida.gob.ve/proyectos/tthh/img/logo03.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2019-08-04 21:39:26 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/core/Exceptions.php:271) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7651

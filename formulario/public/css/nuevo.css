@@ -1,0 +1,157 @@
+/******************************************* Etiquetas Iconos e Imagenes *******************************************/
+.nomCondominio{
+	color: #fff7cc;
+	font-family: Adobe Caslon Pro;
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 20px;	
+}
+.divIconosCent{
+	text-align:center;
+}
+.imgLogo{
+	width:85px;
+	border-radius: 15px;
+}
+/******************************************* Body Login *******************************************/
+.bodyLogin{
+	/*background: #d3dcf0;*/
+	/*background-image:url('../img/home/fondoSession.jpg');*/
+	background-image:url('../img/home/fondoSession.png');
+	background-size: cover;
+}
+
+/******************************************* Ventana Emergente*******************************************/
+.modalFrontino{
+	z-index:5000;
+}
+.modal-header {
+    color:#ffffff;
+    background: #98c8fd;
+}
+/******************************************* Grid *******************************************/
+/*
+grid.setStyle(
+    "background-color:navy;color:white; font-weight:bold;", "","color:red;", ""
+);
+*/
+
+div.gridbox_dhx_skyblue.isModern table.hdr tr td{
+	background-color:navy!important;
+	color:black!important;
+	font-weight:bold!important;
+	font-size:11px;
+}
+
+.gridbox{
+  -webkit-box-sizing: content-box !important;
+     -moz-box-sizing: content-box !important;
+          box-sizing: content-box !important;
+}
+
+.div-grid-consulta{
+	width: 90% !important;
+}
+.div-grid-consulta-alto{
+	width: 90% !important;
+	height-min:300px !important;
+}
+.paginacion{
+	background: white;
+	border: 0px solid #ffffff;
+	border-radius: .25rem;
+	border-width: .1rem;
+	width: max-content;
+	padding: 5px;
+	margin: 5px;
+}
+.label-primary{
+    position: relative;
+    /*display: block;*/
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    font-weight: bold;
+    /*
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    float: inline-end;
+    */
+}
+.label-info{
+	color: blue;
+	font-weight: bold;	
+}
+.label-info-sel{
+	background-color: blue;
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 3px;
+	padding-right: 3px;	
+}
+
+
+.navbar {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	bottom: 0px;    
+}
+.navbar-nav {
+	margin-bottom:revert;
+}
+.btn-group, .btn-group-vertical {
+    /*left: 7px;
+    z-index: 100;*/
+    /*background: #fff;*/
+}
+@media ( max-width : 700px) and (min-width: 300px) {
+	.imgLogo{
+		width:75px;
+	}
+	.nomCondominio{
+		display:none;	
+	}	
+	.iconoDesktop{
+		height: 50px;
+	}
+	.pagina h3 {
+	    font-size: 15px;
+	}	
+	.divIconosCent {
+	    text-align: center;
+	    width: 100px;
+	}	
+}
+.marco-cabecera {
+    background: #fff!important;
+    height: 180px!important;
+    background: #e6e8ff !important;
+}    
+.marco-centro {
+    padding-top: 180px!important;
+}
+.imgLogo {
+    width: 600px;
+}
+.gobText{
+	color:black;
+	text-align: left;
+	font-family: Adobe Caslon Pro;
+	font-size: 16px;	
+}
+.encabezado {
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+}
+.menuOpciones {
+    position: fixed;
+    z-index: 2000;
+    top: 100px;
+}
+.pagina {
+    width: 85%;
+}

@@ -1,0 +1,16 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-09-29 17:29:28 --> Severity: Warning --> fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/libraries/Email.php 2055
+ERROR - 2019-09-29 17:29:28 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/libraries/Email.php 2055
+ERROR - 2019-09-29 17:41:34 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(21318) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-09-29 17:41:34 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(21318) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('21318',  E'{"fecha":"29\\/09\\/2019","ingreso":"72.688,00","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', '9YMdI')
+ERROR - 2019-09-29 17:43:26 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(21318) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-09-29 17:43:26 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(21318) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('21318',  E'{"fecha":"29\\/09\\/2019","ingreso":"72.688,00","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'I8Xe4')
+ERROR - 2019-09-29 17:53:22 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(21318) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-09-29 17:53:22 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(21318) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('21318',  E'{"fecha":"29\\/09\\/2019","ingreso":"72.688,00","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'yRVAw')

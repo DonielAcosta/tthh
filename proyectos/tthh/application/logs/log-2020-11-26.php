@@ -1,0 +1,8 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-11-26 15:54:04 --> Severity: Warning --> getimagesize(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2020-11-26 15:54:04 --> Severity: Warning --> getimagesize(http://tthh.merida.gob.ve/proyectos/tthh/img/logo03.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2020-11-26 15:54:14 --> Severity: Warning --> imagecreatefromjpeg(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2020-11-26 15:54:14 --> Severity: Warning --> imagecreatefromjpeg(http://tthh.merida.gob.ve/proyectos/tthh/img/logo03.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2020-11-26 15:54:24 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/core/Exceptions.php:271) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7651
+ERROR - 2020-11-26 16:29:17 --> 404 Page Not Found: Vendor/almasaeed2010

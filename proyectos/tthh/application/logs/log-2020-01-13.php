@@ -1,0 +1,21 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-01-13 03:03:09 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(18923) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-01-13 03:03:09 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(18923) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('18923',  E'{"fecha":"13\\/01\\/2020","ingreso":"250.907,47","ct":"150.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'bloe6')
+ERROR - 2020-01-13 03:05:45 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(18923) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-01-13 03:05:45 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(18923) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('18923',  E'{"fecha":"13\\/01\\/2020","ingreso":"250.907,47","ct":"150.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'H0o0K')
+ERROR - 2020-01-13 13:44:50 --> 404 Page Not Found: Trabajador_c/Trabajador_c
+ERROR - 2020-01-13 14:21:21 --> Severity: Warning --> fsockopen(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/libraries/Email.php 2055
+ERROR - 2020-01-13 14:21:21 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.gmail.com:465 (php_network_getaddresses: getaddrinfo failed: Name or service not known) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/libraries/Email.php 2055
+ERROR - 2020-01-13 15:21:39 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(21296) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-01-13 15:21:39 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(21296) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('21296',  E'{"fecha":"13\\/01\\/2020","ingreso":"405.576,80","ct":"150.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'ROv7c')
+ERROR - 2020-01-13 15:22:27 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(21296) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-01-13 15:22:27 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(21296) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('21296',  E'{"fecha":"13\\/01\\/2020","ingreso":"405.576,80","ct":"150.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'Q2Y3f')

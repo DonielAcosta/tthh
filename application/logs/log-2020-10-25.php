@@ -1,0 +1,31 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-10-25 00:10:30 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 03:10:42 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 03:18:48 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 03:19:56 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 03:54:54 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 09:05:39 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 10:17:07 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 10:40:16 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 11:28:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 12:13:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 13:34:36 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 14:02:24 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 15:13:12 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 15:31:51 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 15:43:30 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 16:53:31 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 17:42:22 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 19:12:51 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 19:12:53 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 19:12:54 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 19:13:05 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 19:13:11 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 19:13:21 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 19:13:34 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 19:36:28 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2020-10-25 19:43:27 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 19:52:38 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 19:56:43 --> 404 Page Not Found: Faviconico/index
+ERROR - 2020-10-25 20:56:38 --> 404 Page Not Found: Robotstxt/index

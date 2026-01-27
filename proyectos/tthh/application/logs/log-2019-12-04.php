@@ -1,0 +1,34 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-12-04 12:36:40 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2019-12-04 12:49:00 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2019-12-04 12:52:18 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2019-12-04 12:52:23 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2019-12-04 13:37:22 --> 404 Page Not Found: Index2html/index
+ERROR - 2019-12-04 13:38:33 --> 404 Page Not Found: Index2html/index
+ERROR - 2019-12-04 13:38:34 --> 404 Page Not Found: Index2html/index
+ERROR - 2019-12-04 13:40:01 --> 404 Page Not Found: Index2html/index
+ERROR - 2019-12-04 15:58:55 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(20021) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-12-04 15:58:55 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(20021) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('20021',  E'{"fecha":"04\\/12\\/2019","ingreso":"318.238,00","ct":"150.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'IURsC')
+ERROR - 2019-12-04 16:00:33 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(20021) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-12-04 16:00:33 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(20021) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('20021',  E'{"fecha":"04\\/12\\/2019","ingreso":"318.238,00","ct":"150.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'PPgU9')
+ERROR - 2019-12-04 17:04:59 --> Severity: Warning --> imagecreatefrompng(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 17:04:59 --> Severity: Warning --> imagecreatefrompng(http://tthh.merida.gob.ve/proyectos/tthh/img/escudo.png): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 17:05:29 --> Severity: Warning --> getimagesize(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2019-12-04 17:05:29 --> Severity: Warning --> getimagesize(http://tthh.merida.gob.ve/proyectos/tthh/img/logo03.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/include/tcpdf_images.php 171
+ERROR - 2019-12-04 17:05:39 --> Severity: Warning --> imagecreatefromjpeg(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 17:05:39 --> Severity: Warning --> imagecreatefromjpeg(http://tthh.merida.gob.ve/proyectos/tthh/img/logo03.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 17:05:39 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/core/Exceptions.php:271) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7651
+ERROR - 2019-12-04 17:32:44 --> 404 Page Not Found: Vendor/almasaeed2010
+ERROR - 2019-12-04 17:34:46 --> Severity: Warning --> imagecreatefrompng(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 17:34:46 --> Severity: Warning --> imagecreatefrompng(http://tthh.merida.gob.ve/proyectos/tthh/img/escudo.png): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 17:35:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/core/Exceptions.php:271) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7651
+ERROR - 2019-12-04 22:19:02 --> Severity: Warning --> imagecreatefrompng(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 22:19:02 --> Severity: Warning --> imagecreatefrompng(http://tthh.merida.gob.ve/proyectos/tthh/img/escudo.png): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 22:19:07 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/core/Exceptions.php:271) /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7651
+ERROR - 2019-12-04 22:47:29 --> Severity: Warning --> imagecreatefrompng(): php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039
+ERROR - 2019-12-04 22:47:29 --> Severity: Warning --> imagecreatefrompng(http://tthh.merida.gob.ve/proyectos/tthh/img/escudo.png): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/vendor/tecnickcom/tcpdf/tcpdf.php 7039

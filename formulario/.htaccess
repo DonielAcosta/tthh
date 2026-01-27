@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+Rewriterule ^base/(.+)/(.+)/(.+)$ app/cont/principal/base.php?sec=$1&opcion=$2&id=$3
+Rewriterule ^base/(.+)/(.+)$ app/cont/principal/base.php?sec=$1&opcion=$2
+Rewriterule ^base/(.+) app/cont/principal/base.php?sec=$1
+
+#Agregado para imprimir sin estar logueado
+Rewriterule ^control/(.+)/(.+)/(.+)$ app/cont/principal/control.php?sec=$1&opcion=$2&id=$3
+Rewriterule ^control/(.+)/(.+)$ app/cont/principal/control.php?sec=$1&opcion=$2
+Rewriterule ^control/(.+) app/cont/principal/control.php?sec=$1
+
+#Rewriterule ^index.php$ https://solinf.com.ve/condominio/app/cont/sesion/sesion.php
+Rewriterule ^index.php$ http://tthh.merida.gob.ve/formulario/app/cont/persona
+#Rewriterule ^index.php$ http://localhost/formulario/base/persona
+
+#Agregado para imprimir sin estar logueado
+#Rewriterule ^imp/(.+)/(.+)$ control/verificar/
+Rewriterule ^imp/(.+)/(.+)$ control/verificar/$1/$2

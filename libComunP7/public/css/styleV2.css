@@ -1,0 +1,353 @@
+/******************************************* elementos *******************************************/
+body {
+	font: small arial, helvetica, sans-serif;
+	margin-top: 0px;
+	color: #57596D;
+	font-size: 13px;
+	/*overflow:hidden;*/
+}
+
+.pagina{
+	overflow:auto;
+	width: 80%;
+	margin: auto auto;	
+}
+.marco-centro .pagina{
+	overflow:auto;
+	/*padding-top:55px;*/
+}
+.classHand {
+	cursor: pointer;
+}
+/* Etiquetas */
+.label-black {
+	color: #000000;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.label-elemento {
+	color: #000000;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 5px;
+}
+
+.label-bold {
+	color: #000000;
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.label-red {
+	color: #FF0000;
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.label-clave {
+	padding: 5px 5px 5px 5px;
+	color: #074F7F;
+	font-family: Tahoma, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+}
+.imgCapture{
+	/*width:200px;*/
+	width:100px;
+}
+.imgImp{
+	width: 50px;
+	/*position: absolute;
+	left: 40px;
+	top: 190px;*/
+}
+.imgEnv{
+	width: 50px;
+	/*position: absolute;
+	left: 40px;
+	top: 250px;
+	*/
+}
+.btnRecibo{
+	margin:20px;
+}
+.botoneraImp{
+	/*display: flex;*/
+}
+/******************************************* div marcos *******************************************/
+.marco-cabecera {
+	background: #333;
+	color: white;
+	height: 140px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */	
+	
+	z-index:1100;
+	/*position:fixed;*/
+	/*
+	float:left;
+	top:0px;
+	
+	margin: 0px;
+	width:100%;
+	height: 160px;
+	background:antiquewhite;
+	border-left: 1px solid #428C00;
+	border-right: 1px solid #428C00;
+	border-top: 1px solid #428C00;
+	*/
+}
+.marco-centro {
+	padding-top: 150px; /* Relleno superior igual a la altura de la cabecera*/
+
+	width: 100%!important;
+	margin: 0;
+	background-color: #ffffff;
+	overflow: auto;
+	min-height: 530px;
+/*	border:5px solid #A9ADD3;*/
+}
+.marco-pie{
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+
+	/*
+	clear: both;
+	padding: 2px 2px 2px 2px;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background:blue;
+	color: #000;
+	height:17px
+	       */
+}
+#marco-pie p {
+	margin: 0;
+}
+
+#marco-pie a {
+	color: white;
+}
+
+
+/******************************************* div menu *******************************************/
+.menuPrincipal{
+	/*float: left;*/
+	width:100%;
+	height: 40px;
+	position: fixed;
+}
+.divInfoUsuario{
+    /*float: right;*/
+    text-align: center;
+    font-weight: bold;
+    padding:10px;
+}
+.menuOpciones{
+    position: fixed;
+    z-index: 10;
+    top: 145px;
+    margin-left: 25px;
+    /*background: beige;*/
+}
+
+/******************************************* validacion *******************************************/
+#errores {
+	padding-top: 6px;
+}
+.div-errores {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #EF0000;
+	border: 1px solid #EF0000;
+	padding: 5px 5px 5px 5px;
+}
+/* Mensajes de error o informacion */
+.msg-red {
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #EF0000;
+	border: 1px solid #EF0000;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 5px;
+}
+
+.msg-green {
+	font-family: Tahoma, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #008000;
+	border: 1px solid #008000;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+.msg-orange {
+	font-family: Tahoma, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FD9800;
+	border: 1px solid #FD9800;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+.msg-blue {
+	font-family: Tahoma, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #0000FF;
+	border: 1px solid #0000FF;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+/******************************************* encabezado *******************************************/
+.encabezado{
+	padding:10px;
+	width:100%;
+	height: 100px;
+}
+.encabezado-left{
+	float: left;
+	text-align: center;
+}
+.encabezado-center{
+	float: left;
+	text-align: center;
+}
+.encabezado-right{
+	float: left;
+	text-align: center;
+}
+
+/******************************************* formulario *******************************************/
+.line-title {
+	text-align: left;
+	border-bottom: 1px solid #428C00;
+	/*	width: 600px;*/
+	width: auto;
+	margin-bottom: 5px;
+	margin-left: 215px;
+	/*	margin-left: 230px;*/
+}
+.control-label{
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;	
+}
+/******************************************* Grid *******************************************/
+.div-grid-contenedor {
+	background-color: blue;
+	overflow: auto;
+	width: 920px;
+	height: 430px;
+}
+
+.div-grid-consulta {
+	background-color: white;
+	overflow: hidden;
+	width: 830px;
+	/*	height: 430px;*/
+	height: 305px;
+}
+.div-grid-consulta-alto {
+	background-color: white;
+	overflow: hidden;
+	width: 830px;
+	height: 430px;
+	/*height: 305px;*/
+}
+.div-grid-consulta-grande {
+	background-color: white;
+	overflow: hidden;
+	width: 95%;
+	/*	height: 430px;*/
+	height: 305px;
+}
+.div-grid-consulta-mediano {
+	background-color: white;
+	overflow: hidden;
+	width: 830px;
+	height: 205px;
+}
+
+.div-grid-consulta-pequeno {
+	background-color: white;
+	overflow: hidden;
+	width: 830px;
+	height: 100px;
+}
+
+.div-grid-pequeno {
+	background-color: white;
+	overflow: hidden;
+	width: 290px;
+	height: 280px;
+}
+
+.div-grid-mediano {
+	background-color: white;
+	overflow: hidden;
+	width: 380px;
+	height: 280px;
+}
+/******************************************* Para Moviles *******************************************/
+/* @media ( max-width : 1300px) and (min-width: 700px) { */
+@media ( max-width : 700px) and (min-width: 300px) {
+	.marco-centro {	
+		min-height: 460px;
+	}
+	.divInfoUsuario{
+		position: fixed;
+		top: 10px;
+		right: 10px;
+	}	
+	.encabezado-left {
+	    text-align: left;
+	}	
+	.navbar-collapse {
+		background: #f8f9fa;
+		padding-left: 10px;
+		border: 1px solid #dfe0e1;
+	}	
+	.navbar {
+	    position: absolute!important;
+	    height: 50px!important;
+	    padding-top: 5px!important;
+	}	
+	.line-title {
+	    margin-left: 0px;
+	    margin-top: 50px;
+	}	
+	.line-title h4 {
+	    font-size: 15px;
+	}	
+	.menuOpciones {
+	    position: fixed;
+	    z-index: 10;
+	    top: 140px;
+	    margin-left: 0px;
+	    padding-left: 15px;
+	    background: white;
+	    width: 100%;
+	    text-align: left;
+	}	
+}

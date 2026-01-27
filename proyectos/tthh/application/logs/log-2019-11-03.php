@@ -1,0 +1,31 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-11-03 12:54:08 --> 404 Page Not Found: Usuario/index
+ERROR - 2019-11-03 18:48:42 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(1386) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-11-03 18:48:42 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(1386) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('1386',  E'{"fecha":"03\\/11\\/2019","ingreso":"226.371,20","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', '2XuOb')
+ERROR - 2019-11-03 18:49:12 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(1386) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-11-03 18:49:12 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(1386) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('1386',  E'{"fecha":"03\\/11\\/2019","ingreso":"226.371,20","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'yyXRk')
+ERROR - 2019-11-03 21:21:41 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-11-03 21:21:41 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19564',  E'{"fecha":"03\\/11\\/2019","ingreso":"5.429,36","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'dDQV0')
+ERROR - 2019-11-03 21:21:48 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-11-03 21:21:48 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19564',  E'{"fecha":"03\\/11\\/2019","ingreso":"5.429,36","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'lWIoG')
+ERROR - 2019-11-03 21:22:03 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-11-03 21:22:03 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19564',  E'{"fecha":"03\\/11\\/2019","ingreso":"5.429,36","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'TDdWR')
+ERROR - 2019-11-03 21:22:17 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-11-03 21:22:17 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19564',  E'{"fecha":"03\\/11\\/2019","ingreso":"5.429,36","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'I0HVv')
+ERROR - 2019-11-03 21:22:35 --> Severity: Warning --> pg_query(): Query failed: ERROR:  insert or update on table &quot;trabajadores_ct&quot; violates foreign key constraint &quot;trabajadores_ct_trabajador_fk_fkey&quot;
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table &quot;trabajador&quot;. /home/admin/web/tthh.merida.gob.ve/public_html/proyectos/tthh/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-11-03 21:22:35 --> Query error: ERROR:  insert or update on table "trabajadores_ct" violates foreign key constraint "trabajadores_ct_trabajador_fk_fkey"
+DETAIL:  Key (trabajador_fk)=(19564) is not present in table "trabajador". - Invalid query: INSERT INTO "trabajadores_ct" ("trabajador_fk", "capture", "codigo") VALUES ('19564',  E'{"fecha":"03\\/11\\/2019","ingreso":"5.429,36","ct":"25.000,00","avala":"ABG. ANTONIO JOSE DIAZ GARCIA"}', 'hnQ05')
