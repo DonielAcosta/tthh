@@ -1,19 +1,10 @@
 <?php
-//include('../../Glimpse/index.php');
-// require_once("../conf.php");
-// require "vendor/autoload.php";
-require "vendor/tecnickcom/phpGrid_Lite/conf.php";
-// C:\xampp7\htdocs\webtthh\vendor\tecnickcom\grid_gpl\codebase
+// Vista usa dhtmlxGrid (grid_gpl), no phpGrid_Lite. conf.php de phpGrid_Lite no existe en el proyecto.
 ?>
 
-<!-- 		Librerias del grid -->
-<script src="<?php echo base_url('vendor/tecnickcom/grid_gpl/codebase/grid.js?v=6.5.1');?>"></script>
-<link rel="stylesheet" href="<?php echo base_url('vendor/tecnickcom/grid_gpl/codebase/grid.css?v=6.5.1');?>">
-
-<!-- 		Librerias comunes carga de datos -->
-		<link rel="stylesheet" href="<?php echo base_url('vendor/tecnickcom/grid_gpl/common/index.css?v=6.5.1');?>">
-		<link rel="stylesheet" href="<?php echo base_url('vendor/tecnickcom/grid_gpl/common/grid.css?v=6.5.1');?>">
-		<!-- <script type="text/javascript" src="<?php echo base_url('vendor/tecnickcom/grid_gpl/common/dataset.js?v=6.5.1');?>"></script> -->
+<!-- DHTMLX Suite (Grid) - CDN porque vendor/tecnickcom/grid_gpl no existe en el proyecto -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dhx-suite@6.5.1/codebase/suite.min.css">
+<script src="https://cdn.jsdelivr.net/npm/dhx-suite@6.5.1/codebase/suite.min.js"></script>
 <style>
 .btnGrid{
     /*background-color:blue;*/
@@ -39,7 +30,7 @@ section {
 		<header class="dhx_sample-header">
     		<div class="form-group col-md-12">
     			<a href="<?php echo base_url('Servicios_c/solicitud_ing');?>">
-    				<button type="button" id="btnVer" class="btn btn-primary btn-lg"></body>Nueva Solcitud</button>
+    				<button type="button" id="btnVer" class="btn btn-primary btn-lg">Nueva Solicitud</button>
     			</a>
     			<button type="button" id="btnVer" class="btn btn-primary btn-lg" onclick="window.history.back();">Volver</button>
     		</div>
@@ -82,11 +73,16 @@ section {
 		    data: { id: id } ,
 		    dataType : 'json',
 		    success: function(blob) {
-			    if(blob==null){
+			    if (blob == null) {
 			    	jQuery("#solicitudes-msg").text('No hay solicitudes realizadas.');
+			    	return;
+			    }
+			    if (typeof dhx === 'undefined') {
+			    	jQuery("#solicitudes-msg").html('<p class="text-danger">No se pudo cargar la librería del grid. Compruebe la conexión.</p>');
+			    	return;
 			    }
 				var datacollection = new dhx.DataCollection();
-				datacollection.parse(blob);				
+				datacollection.parse(blob);
 				var grid = new dhx.Grid("grid", {
 					columns: [					
 						{ width: 120, id: "idsolicitud", header: [{text: "Opciones", align: "center"}],

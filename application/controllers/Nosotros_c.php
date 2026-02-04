@@ -1,66 +1,52 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-//
-class Nosotros_c extends MY_Controller
-{
-	// constructor
-	public function __construct()
-	{
+/**
+ * Controlador sección Nosotros (misión, estructura, normas).
+ */
+class Nosotros_c extends MY_Controller {
+	public function __construct(){
 		parent::__construct();
-        $this->load->helper(array('number', 'download', 'date'));
-        $this->load->library('table');
-//		$this->load->model('Trabajador_m', 'trbm');
-//		$this->load->model('Trabajador_m', 'cargos');
-        if (isset($this->session->persona_id)){
-//            $this->trbm->get_by_persona($this->session->persona_id);
-//            $this->cargos->get_jobs_by_persona($this->session->persona_id);
-        }else{
-            $url = base_url();
-        	header ( "Location: $url" );
-        }
-//        die();
+		$this->load->helper(array('number', 'download', 'date'));
+		$this->load->library('table');
+
+		if (!isset($this->session->persona_id)) {
+			header('Location: ' . base_url());
+			exit;
+		}
 	}
-	/////////////////////////// FIN DE: __construct /////////////////////////////
 
-	// 
-    public function index() 
-    {
-            //$datos['page_encabezado'] = 'Nosotros';
-            $datos['page_encabezado'] = '';
-            $datos['page_descripcion'] = '';
-//            $datos['ddl_anios'] = $ddl_anios;
-//            $datos['ddl_mes'] = $ddl_mes;
-//            $datos['ddl_nomina'] = $ddl_nomina;    	
-//        $datos['contenido'] = $this->load->view('Nosotros_v', $datos, TRUE);
-            $datos['contenido'] = $this->load->view('nosotros/mision_v', $datos, TRUE);
-            $this->renderiza($this->entorno->empty_template, $datos);        
-    } 
-    public function estructura() 
-    {
-            $datos['page_encabezado'] = 'Estructura';
-            $datos['page_descripcion'] = '';
-//            $datos['ddl_anios'] = $ddl_anios;
-//            $datos['ddl_mes'] = $ddl_mes;
-//            $datos['ddl_nomina'] = $ddl_nomina;       
-//        $datos['contenido'] = $this->load->view('Nosotros_v', $datos, TRUE);
-            $datos['contenido'] = $this->load->view('nosotros/estructura_v', $datos, TRUE);
-            $this->renderiza($this->entorno->empty_template, $datos);        
-    }
-    public function normas() 
-    {
-            $datos['page_encabezado'] = 'Estructura';
-            $datos['page_descripcion'] = '';
-//            $datos['ddl_anios'] = $ddl_anios;
-//            $datos['ddl_mes'] = $ddl_mes;
-//            $datos['ddl_nomina'] = $ddl_nomina;       
-//        $datos['contenido'] = $this->load->view('Nosotros_v', $datos, TRUE);
-            $datos['contenido'] = $this->load->view('nosotros/normas_v', $datos, TRUE);
-            $this->renderiza($this->entorno->empty_template, $datos);        
-    }
+	/**
+	 * Misión (página principal de Nosotros).
+	 */
+	public function index()
+	{
+		$this->render_pagina('', '', 'nosotros/mision_v');
+	}
 
+	/**
+	 * Estructura organizativa.
+	 */
+	public function estructura()
+	{
+		$this->render_pagina('Estructura', '', 'nosotros/estructura_v');
+	}
 
+	/**
+	 * Normas.
+	 */
+	public function normas()
+	{
+		$this->render_pagina('Normas', '', 'nosotros/normas_v');
+	}
 
+	/**
+	 * Carga una vista de nosotros con el template común.
+	 */
+	private function render_pagina($encabezado, $descripcion, $vista){
+		$datos['page_encabezado']  = $encabezado;
+		$datos['page_descripcion'] = $descripcion;
+		$datos['contenido']        = $this->load->view($vista, $datos, TRUE);
+		$this->renderiza($this->entorno->empty_template, $datos);
+	}
 }
-
-/* End of file: Nosotros_c.php */
-/* Location: ./application/controllers */

@@ -58,15 +58,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <?php echo $contenido;?>
   </div>
 
-  <!-- pie -->
-  <div class="row">
-    <div class="col-md-6">
-      <?php echo $this->entorno->nombre;?>
-    </div>
-    <div class="col-md-6">
-      <p class="text-right"><strong>Versión</strong><?php echo " {$this->entorno->version} ({$this->entorno->codigo})";?></p>
-    </div>
-  </div>
 
 <!-- REQUIRED JS SCRIPTS -->
 

@@ -130,15 +130,6 @@ desired effect
   </div>
   <!-- /.content-wrapper -->
 
-  <!-- Main Footer -->
-  <footer class="main-footer">
-    <!-- To the right -->
-    <div class="pull-right hidden-xs">
-      <strong>Versión</strong><?php echo " {$this->entorno->version} ({$this->entorno->codigo})";?>
-    </div>
-    <!-- Default to the left -->
-    <?php echo $this->entorno->nombre;?>
-  </footer>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">

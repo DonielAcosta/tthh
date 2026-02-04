@@ -30,16 +30,15 @@
   <link rel="stylesheet" href="<?php echo base_url('vendor/almasaeed2010/adminlte/dist/css/google-fonts.css');?>">
   <link rel="stylesheet" href="<?php echo base_url('css/style.css');?>">
 
-  <!-- Owl -->
-  <link rel="stylesheet" href="<?php echo base_url('vendor/owl/css/docs.theme.min.css');?>">
-  <link rel="stylesheet" href="<?php echo base_url('vendor/owl/css/owl.carousel.min.css');?>">
-  <link rel="stylesheet" href="<?php echo base_url('vendor/owl/css/owl.theme.default.min.css');?>">
-  
+  <!-- Owl Carousel 2 (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
 <!-- jQuery 3 -->
 <script src="<?php echo base_url('vendor/almasaeed2010/adminlte/bower_components/jquery/dist/jquery.min.js');?>"></script>
 
-  <!-- Owl -->
-  <script src="<?php echo base_url('vendor/owl/js/owl.carousel.min.js');?>"></script>
+  <!-- Owl Carousel 2 (CDN) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   
 </head>
 <body class="hold-transition login-page">
@@ -131,7 +130,7 @@
   </div>
   <div class="col-md-9"></div>
   <div class="col-md-2" style="margin-top: 20px;"></div>
-  <div class="col-md-9" style="margin-top: 0px;font-family:"Lato" Sans-serif>
+  <div class="col-md-9" style="margin-top: 0px;font-family:Lato", Sans-serif>
 		<!--<label class="textTitulo">Sistema de Recursos Humanos</label>-->
 		
 <!-- 			<p style="font-size:20px;"><h3 class="textHome">El sistema de Recursos Humanos SisRRHH es un portal web que ofrece a los trabajadores activos, jubilados y pensionados -->
@@ -211,37 +210,25 @@
 <script>
 $(document).ready(function() {
   var owl = $('.owl-carousel');
-  owl.owlCarousel({
-    items: 3,
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:3,
-            nav:true,
-            loop:false
-        }
-    }
-  });
-  $('.play').on('click', function() {
-    owl.trigger('play.owl.autoplay', [1000])
-  })
-  $('.stop').on('click', function() {
-    owl.trigger('stop.owl.autoplay')
-  })
-})
+  if (typeof owl.owlCarousel === 'function') {
+    owl.owlCarousel({
+      items: 3,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsiveClass: true,
+      responsive: {
+        0: { items: 1, nav: true },
+        600: { items: 3, nav: false },
+        1000: { items: 3, nav: true, loop: false }
+      }
+    });
+    $('.play').on('click', function() { owl.trigger('play.owl.autoplay', [1000]); });
+    $('.stop').on('click', function() { owl.trigger('stop.owl.autoplay'); });
+  }
+});
 </script>
 
 <script type="text/javascript">
@@ -286,8 +273,6 @@ $(document).ready(function () {
 });
 </script>
 
-	<script src="<?php echo base_url('vendor/owl/vendors/highlight.js');?>"></script>
-	<script src="<?php echo base_url('vendor/owl/js/app.js');?>"></script>
 </body>
   <style>
     body {

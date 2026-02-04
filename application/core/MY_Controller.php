@@ -31,14 +31,13 @@ class MY_Controller extends CI_Controller
 	public function renderiza($template, $datos)
 	{
 		// cargo el menu del usuario segun su rol
-		switch ($this->session->rol) {
-			case 'Trabajador':
-				$datos['menu'] = $this->load->view('menu/trabajador_v', '', TRUE);
-				break;
-			
-			default:
-				$datos['menu'] = $this->load->view('menu/menu', '', TRUE);
-				break;
+		$rol = isset($this->session->rol) ? trim($this->session->rol) : '';
+		if (stripos($rol, 'Administrador') !== false) {
+			$datos['menu'] = $this->load->view('menu/admin_v', '', TRUE);
+		} elseif ($rol === 'Trabajador') {
+			$datos['menu'] = $this->load->view('menu/trabajador_v', '', TRUE);
+		} else {
+			$datos['menu'] = $this->load->view('menu/menu', '', TRUE);
 		}
 
 		// cargo el template con sus datos
