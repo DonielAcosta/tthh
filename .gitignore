@@ -1,0 +1,57 @@
+# Entornos
+.env
+.env.local
+.env.*.local
+
+# Dependencias
+/vendor/
+/node_modules/
+
+# Cache y logs
+/application/cache/*
+!/application/cache/.gitkeep
+/application/logs/*
+!/application/logs/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Archivos temporales
+*.tmp
+*.log
+*.cache
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Backups
+*.sql
+*.backup
+*.bak
+database/backups/*
+
+# Uploads
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/src/constancias/*.pdf
+
+# Tests
+/tests/fixtures/*.php
+!/tests/fixtures/.gitkeep
+
+# Composer
+/vendor/
+composer.lock
+
+# NPM
+/node_modules/
+package-lock.json

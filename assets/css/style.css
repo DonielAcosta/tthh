@@ -1,0 +1,111 @@
+body {
+    /*font: 10pt Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+   	margin: 10 10 10 10px;
+   	text-align: letf;
+   	background-color: #ffffff!important;
+	font-size: 18px;
+	font-family: Arial;   
+}
+.textTitulo{
+	font-size: 24px;
+	font-weight: bold;
+	/*font-family: 'Arial';*/	
+}
+.content-wrapper {
+    background-color: #ffffff;
+}
+.li-nuevo{
+	cursor: pointer;
+	padding: 9px;
+	font-size: 14px;
+	/*color: blue;*/
+}
+.content-wrapper, .main-footer {
+    margin-left: 0px;
+}
+.divUsuario{
+	/*height: 100px;*/
+	background: #fff;
+	text-align: center;	
+	vertical-align: bottom;
+	padding: 2%;
+	color: #000;	
+}
+.divLogo{
+	/*height: 100px;*/
+	background: #fff;
+	text-align: center;
+	padding: 10px;
+	color: white;	
+}
+.divIconosCent{
+	text-align:center;
+}
+.iconoDesktop{
+	width:150px;
+}
+.iconoDesktop-barra{
+	width:100px;
+}
+.content-header {
+    position: relative;
+    padding: 15px;
+    text-align: center;
+}
+.logo-lg{
+	font-size: 30px;
+}
+.imgLogo{
+	width:170px;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #fff;
+}
+.main-header {
+    position: relative;
+    max-height: 320px;
+    z-index: 1030;
+}
+.contHome{
+	/*background: #fff;*/
+	height:100%;
+	text-align: center;
+	padding: 10px;
+	color: #596a5c;;
+	font-size: inherit;
+}
+.colorNegro{
+	color:#000;
+}
+@media ( max-width : 700px) and (min-width: 300px) {
+	h3{
+		font-size: inherit;
+	}
+	.imgLogo{
+		width:100px;
+		float: left;
+		padding-left: 10px;
+	}	
+	.iconoDesktop{
+		width:70px;
+	}
+	.iconoDesktop-barra{
+		width:100px;
+	}
+}
+.open > .dropdown-menu {
+    display: contents;
+}
+.control-label{
+	font-size: 22px;
+    font-family: Arial;	
+}
+
+.login-box-body, .register-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+    border: 5px solid;
+    border-radius: 15px;    
+}
